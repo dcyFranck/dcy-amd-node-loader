@@ -1,6 +1,6 @@
 {
   "name" : "dcy-amd-node-loader",
-  "version" : "1.0",
+  "version" : "1.0.0",
   "description" : "Add the capability to load AMD (Asynchronous Module Definition) modules to node.js for Decisyon",
   "author": "Francesco Pagano <francesc.pagano@decisyon.com>",
   "contributors": [
