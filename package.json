@@ -1,0 +1,31 @@
+{
+  "name" : "dcy-amd-node-loader",
+  "private": true,
+  "version" : "1.0",
+  "description" : "Add the capability to load AMD (Asynchronous Module Definition) modules to node.js for Decisyon",
+  "author": "Francesco Pagano <francesc.pagano@decisyon.com>",
+  "contributors": [
+    { "name": "Decisyon dev team" }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/dcyFranck/dcy-amd-node-loader.git" 
+  },
+  "main": "./dcy-amd-node-loader.js",
+  "scripts" : {},
+  "engines" : {
+     "node" : ">= 0.4.11"
+  },
+  "licenses" : [{
+    "type" : "MIT",
+    "url" : "https://github.com/dcyFranck/dcy-amd-node-loader/raw/master/LICENSE"
+  }],
+  "devDependencies": {
+    "amd-loader": "0.0.8",
+  },
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=3.10.9",
+    "gulp": ">=3.9.1"
+  }
+}
