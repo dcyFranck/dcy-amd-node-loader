@@ -11,6 +11,12 @@ https://github.com/ajaxorg/node-amd-loader
 
     npm install https://github.com/dcyFranck/dcy-amd-node-loader.git --save-dev
     
+ or in package.json
+    
+    "devDependencies": {
+        "dcy-amd-node-loader": "git+https://github.com/dcyFranck/dcy-amd-node-loader.git"
+    }
+     
 Before being able to load AMD modules the `dcy-amd-node-loader` module has to be required.
 
     require("dcy-amd-node-loader");
