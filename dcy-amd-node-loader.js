@@ -1,3 +1,4 @@
+require("amd-loader");
 global.dcyAngular = {
 	dcyDefine : function(name, deps, callback) {
 		if(typeof name !== 'string'){
