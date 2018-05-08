@@ -1,4 +1,5 @@
 require("amd-loader");
+const path = require("path");
 global.dcyAngular = {
 	dcyDefine : function(name, deps, callback) {
 		if(typeof name !== 'string'){
@@ -14,7 +15,7 @@ global.dcyAngular = {
 		
 		deps = deps.map(function(item) { 
 			if(item.indexOf('@dcyCoreJs/') != -1){
-				item = item.replace('@dcyCoreJs/', '../../src/main/webapp/jsLib/') + '.js';
+				item = item.replace('@dcyCoreJs/', path.join(process.cwd(), '/src/main/webapp/dist/') ) + '.js';
 			}
 			return item;
 		});
