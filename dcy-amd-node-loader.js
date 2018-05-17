@@ -15,7 +15,7 @@ global.dcyAngular = {
 		
 		deps = deps.map(function(item) { 
 			if(item.indexOf('@dcyCoreJs/') != -1){
-				item = item.replace('@dcyCoreJs/', path.join(p__dirname, '../../src/main/webapp/dist/') ) + '.js';
+				item = item.replace('@dcyCoreJs/', path.join(__dirname, '../../src/main/webapp/dist/') ) + '.js';
 			}
 			return item;
 		});
