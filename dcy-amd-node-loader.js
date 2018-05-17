@@ -1,7 +1,7 @@
 require("amd-loader");
 const path = require("path");
 global.dcyAngular = {
-	dcyDefine : function(name, deps, callback) {
+	internalDefine : function(name, deps, callback) {
 		if(typeof name !== 'string'){
 			callback = deps;
 			deps = name;
