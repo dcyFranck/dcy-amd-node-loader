@@ -17,7 +17,7 @@ global.dcyAngular = {
 			if(item.indexOf('@dcyCoreJs/') != -1){
 				item = item.replace('@dcyCoreJs/', path.join(__dirname, '../../src/main/webapp/dist/') ) + '.js';
 			}
-			return item;
+			return path.normalize(item);
 		});
 		
 		if(name && deps && callback){
